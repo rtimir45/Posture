@@ -62,7 +62,7 @@ def main_app():
         st.session_state.logged_in = False
         st.rerun()
 
-    st.write("🧍 Your Posture Detection App Starts Here")
+    st.write("🧍 Your Posture Correcction App Starts Here")
 
     # ✅ MOVE YOUR CAMERA CODE HERE
     webrtc_streamer(
